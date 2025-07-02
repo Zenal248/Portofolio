@@ -18,7 +18,7 @@
       font-family: 'Segoe UI', sans-serif;
     }
     body {
-    background: url('/nal.jpg') no-repeat center center fixed;
+    background: url('img/nal.jpg') no-repeat center center fixed;
     background-size: cover;
     background-position: 10% 45%; /* GESER POSISI GAMBAR */
     background-attachment: fixed;
@@ -170,13 +170,13 @@
 <body id="pageBody">
   <div class="content-wrapper">
     <div class="sidebar">
-      <img src="C:/Users/Nall/Documents/KP MJU/Nall 2.jpg" alt="Foto Profil" class="profile-photo">
+      <img src="img/Nall 2.jpg" alt="Foto Profil" class="profile-photo">
       <h2>Zenal Muttaqin</h2>
-      <a onclick="showSection('tentang', 'C:/Users/Nall/Documents/KP MJU/nal.jpg')">Tentang Saya</a>
-      <a onclick="showSection('pengalaman', 'C:/Users/Nall/Documents/KP MJU/nal.jpg')">Pengalaman</a>
-      <a onclick="showSection('pendidikan', 'C:/Users/Nall/Documents/KP MJU/nal.jpg')">Pendidikan</a>
-      <a onclick="showSection('skill', 'C:/Users/Nall/Documents/KP MJU/nal.jpg')">Skill</a>
-      <a onclick="showSection('kontak', 'C:/Users/Nall/Documents/KP MJU/nal.jpg')">Kontak</a>
+      <a onclick="showSection('tentang', 'img/nal.jpg')">Tentang Saya</a>
+      <a onclick="showSection('pengalaman', 'img/nal.jpg')">Pengalaman</a>
+      <a onclick="showSection('pendidikan', 'img/nal.jpg')">Pendidikan</a>
+      <a onclick="showSection('skill', 'img/nal.jpg')">Skill</a>
+      <a onclick="showSection('kontak', 'img/nal.jpg')">Kontak</a>
     </div>
     <div class="main-content">
       <div class="dashboard-header">
@@ -253,7 +253,7 @@
         const main = document.querySelector('.main-content');
         main.classList.remove('blur-background'); // Hapus blur
 
-        document.getElementById('pageBody').style.backgroundImage = "url('C:/Users/Nall/Documents/KP MJU/nal.jpg')";
+        document.getElementById('pageBody').style.backgroundImage = "url('img/nal.jpg')";
     }
 
     function showSection(id, backgroundPath) {
